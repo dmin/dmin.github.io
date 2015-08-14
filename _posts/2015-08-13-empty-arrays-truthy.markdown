@@ -4,7 +4,7 @@ title:  "Empty arrays are truthy!"
 date:   2015-08-13 23:34:27
 categories: values booleans expression
 ---
-A quick reminder (if only to myself) that only the following expressions in JavaScript evaluate as falsy when used where a boolean is expected.
+A quick reminder (if only to myself) that only the following expressions in JavaScript evaluate as falsy when used where a boolean is expected (Thank you, [JavaScript: The Definitive Guide](http://www.amazon.com/gp/product/0596805527/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596805527&linkCode=as2&tag=blog0ae8-20&linkId=YGOTNSSIMJW3W6FX)).
 
 {% highlight javascript %}
 undefined
