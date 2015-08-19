@@ -95,3 +95,15 @@ $ git push origin patch-2 --force
 {% endhighlight %}
 
 (we need to use the --force option because the git rebase command is rewriting history by "squashing" two commits into one new commit. You should not use the --force option when pushing to branches that are used by other people.)
+
+#### References:
+- [http://stackoverflow.com/questions/9790448/how-to-update-a-pull-request](http://stackoverflow.com/questions/9790448/how-to-update-a-pull-request)
+- [http://stackoverflow.com/questions/14534397/squash-all-my-commits-into-one-for-github-pull-request](http://stackoverflow.com/questions/14534397/squash-all-my-commits-into-one-for-github-pull-request)
+- [http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git](http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git)
+- [https://help.github.com/articles/about-git-rebase/](https://help.github.com/articles/about-git-rebase/)
+- [http://stackoverflow.com/questions/67699/clone-all-remote-branches-with-git](http://stackoverflow.com/questions/67699/clone-all-remote-branches-with-git)
+- [https://jwiegley.github.io/git-from-the-bottom-up/1-Repository/8-interactive-rebasing.html](https://jwiegley.github.io/git-from-the-bottom-up/1-Repository/8-interactive-rebasing.html)
+- [http://stackoverflow.com/questions/134882/undoing-a-git-rebase](http://stackoverflow.com/questions/134882/undoing-a-git-rebase)
+- [https://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history](https://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history)
+- [http://blog.steveklabnik.com/posts/2012-11-08-how-to-squash-commits-in-a-github-pull-request](http://blog.steveklabnik.com/posts/2012-11-08-how-to-squash-commits-in-a-github-pull-request)
+- [http://blog.atom.io/2014/03/13/git-integration.html](http://blog.atom.io/2014/03/13/git-integration.html)
